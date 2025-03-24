@@ -1,0 +1,38 @@
+T--ADMIN
+
+cName -  ANAME / APASS
+-------------------------------------------------------------------------
+
+
+T-- MOBILE_PRE
+CnAME -  PRE_MOB_NUM / PRE_OPER / PRE_CIRCLE / PRE_AMOUNT
+
+T-- MOBILE_POST
+CnAME -  POST_MOB_NUM / POST_OPER / POST_CIRCLE / POST_AMOUNT
+-------------------------------------------------------------------------
+
+
+T--DTH
+cName - DTH_OPER / DTH_CUS_ID / DTH_AMOUNT
+-------------------------------------------------------------------------
+
+
+
+T--ELE
+cName - ELE_CIRCLE / ELE_CUS_ID / ELE_AMOUNT
+-------------------------------------------------------------------------
+
+
+T-GAS
+cName - GAS_AGEN / GAS_CUS_ID / GAS_AMOUNT
+-------------------------------------------------------------------------
+
+
+T-WATER
+cName - WATER_OPER / WATER_CUS_ID / WATER_AMOUNT
+-------------------------------------------------------------------------
+
+
+T-- SUBSCRIBER
+
+cName -  SUBSCRIBER_MAIL_ID
