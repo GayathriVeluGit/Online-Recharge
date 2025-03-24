@@ -1,0 +1,662 @@
+*{
+  box-sizing:border-box;
+}
+body{
+	margin: 0;
+	padding: 0;
+  font-family: none;
+
+}
+
+.headcon{
+    background-color: rgba(0, 0, 0, 0.52);
+    padding :6px ;
+    position: fixed;
+    top:0;
+    width: 100%;  
+    height: 63px;
+}
+.logo {
+  float: left;
+  padding-left:0.5in;
+  font-family: "Copperplate Gothic";
+  font-size: 30px;
+  margin-top:-0.25in;
+  color: yellow;
+}
+
+.log-box {
+  margin-right: .9in;
+  margin-top:14px;
+  float: right;
+  padding-left: 10px; 
+}
+.log-box button{
+  text-align: center;
+  margin-right: 10px;
+}
+
+.log-box button i{
+  padding: 5px;
+  font-size: 12px;
+}
+/*-----------------------------------------ADMIN LOGIN-------------------------------*/
+#adminloginbox{
+  display: none;
+  width: 270px;
+  height: 250px;
+  margin-top: 0.8in;
+  background: none;
+  float: right;
+  margin-right: -3in;
+  border: 1px solid black;
+  background-color: white;
+}
+#adminloginbox h4{
+  text-align: center;
+}
+#adminloginbox form{
+  margin-top: 0.5in;
+}
+#adminloginbox input{
+  border: none;
+  outline: none;
+  border-bottom: 1.5px solid black;
+  margin-bottom: 35px;
+  margin-left: 23px;
+}
+#adminloginbox button{
+  margin-left: 90px;
+}
+#adminloginbox i{
+  font-size: 12px;
+  margin-left: 22px;
+  margin-right: -15px;
+}
+/*-----------------------------------------SLIDE SHOW-------------------------------*/
+.ss img{
+  width:100%;
+} 
+.ss span{
+  margin-left: 20%;
+  margin-top: 40%;
+}
+
+.w_ss-1,.w_ss-2,.w_ss-3 {
+  position: absolute;
+  display: block;
+  top: 9em;
+  left:9em;
+  width: 60%;
+  font-size: 2em;
+  animation-duration: 11s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  color:white;
+}
+
+.w_ss-1{
+  animation-name: anim-1;
+}
+.w_ss-2{
+  animation-name: anim-2;
+}
+.w_ss-3{
+  animation-name: anim-3;
+}
+
+@keyframes anim-1 {
+  0%, 8.3% { left: -100%; opacity: 0; }
+  8.3%,25% { left: 25%; opacity: 1; }
+  33.33%, 100% { left: 110%; opacity: 0; }
+}
+
+@keyframes anim-2 {
+  0%, 33.33% { left: -100%; opacity: 0; }
+  41.63%, 58.29% { left: 25%; opacity: 1; }
+  66.66%, 100% { left: 110%; opacity: 0; }
+}
+
+@keyframes anim-3 {
+  0%, 66.66% { left: -100%; opacity: 0; }
+  74.96%, 91.62% { left: 25%; opacity: 1; }
+  100% { left: 110%; opacity: 0; }
+}
+
+/*-----------------------------------------NAV BOX-------------------------------*/
+.navbox{
+  
+  margin-top: 0.6in; 
+  width: 100%;
+  height: 500px;
+}
+.tab{
+  width: 300px;
+  height: 4in;
+  float: left;
+  margin-left: 1.3in;
+  margin-top: 0.9in;
+}
+
+.tab ul li {
+  width: 270px;
+  border: 1px solid #d4d2d2;
+  font-size: 18px;
+  padding: 5px;
+  margin-bottom: 30px;
+  border-radius: 3px;
+  background-color:#f5f5f5 ;
+  transition-duration: .5s;
+}
+.tab li:hover{
+  background-color: #b1f0eb;
+  text-decoration: none;
+  color: black;  
+}
+
+.tab button {
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 18px;
+}
+.tablinks{
+  text-align: left;
+  background-color: none;
+  width: 230px;
+  border: 1px solid black;
+  padding: 5px;
+  cursor: pointer;
+}
+
+/*------------------------------------------TAB answer----------------------------------*/
+
+.tabans{
+  float: left;
+  margin-left: 1.5in;
+  height: 4.5in;
+  width: 550px;
+  margin-top:30px;
+}
+.tabcontent {
+  display: none;   
+  width: 100%;
+  height: 5in;
+  border: 1px solid #e9f5f4;
+  background-color: #f7fcfc;
+}
+#reb1{
+  background-color: #0eddf0;
+}
+.rebtn{
+  border: none;
+  outline: none;
+  background: none;
+  background-color:#dae5e6;
+  width: 85px;
+  height: 30px;
+  margin-top: 0.2in;
+  margin-left: 45px;
+  border-radius: 3px;
+}
+
+/*/*/*/*/*/*/**/
+.tab1 span{
+  margin-left: 35px;
+}
+
+#mob{
+  display: block;
+}
+/*prepaid*/
+.prepaid{
+  margin-left:35px;
+  margin-top: 5px;
+}
+.postpaid{
+  display: none;
+  margin-left:35px;
+  margin-top: 5px;
+}
+.allt{
+  margin-left:35px;
+  margin-top: 20px; 
+}
+
+.tabansh4{
+  font-size: 17px;
+  color: black;
+}
+.tabansinput{
+  width: 400px;
+  height: 35px;
+  border: none;
+  outline: none;
+  border: 1px solid #ccc;
+  background-color: none;
+  
+}
+.tabansselect{
+  width: 400px;
+  height: 35px;
+  border: none;
+  outline: none;
+  border: 1px solid #ccc;
+  background-color: none;
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
+.tabansbtn{
+  border: none;
+  color: white;
+  outline: none;
+  background: none;
+  margin-top: 25px;
+  width: 150px;
+  height: 35px;
+  background-color: #07eff7;
+  border-radius: 3px;
+}
+/*------------------------------------------login register-------------------------*/
+
+#myForm{
+  display: none;
+}
+.log-res{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  width: 50%;
+  height: 5.6in;
+  border: 2px solid blue;
+  margin-top: 6%;
+  margin-left: 20%;
+  background-color: royalblue;
+  background: linear-gradient(to bottom,#5c5cad,#0a047a);
+  box-shadow: 0 21px 42px rgba(0, 0, 0, 0.30), 0 18px 17px rgba(0, 0, 0, 0.22);
+  border-radius: 6px;
+
+}
+.box-2 i{
+  float: right;
+  color:#c2c3c4;
+  padding: 10px;
+  padding-right: 15px;
+  font-size: 20px;
+}
+.box-2 i:hover{
+  color: black;
+}
+.con-hol{
+  text-align: center;
+  margin-top: 10%;
+}
+
+.con-hol img{
+  width: 50%;
+  height: 40%;
+  padding-top: 10%;
+  border-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.con-hol h1{
+  color:white;
+  font-size:90%;
+  font-family: "";
+  font-weight: ;
+  padding-bottom:  20px;
+}
+.btn-1 {
+  border: none;
+  outline: none;
+  width: 80px;
+  height: 30px;
+  border-radius: 2px;
+  margin-right: 3%;
+  font-size: 15px;
+   
+  color:black;
+  background-color: white;
+}
+.btn-2{
+  border: none;
+  outline: none;
+  width: 80px;
+  height: 30px;
+  border-radius: 2px;
+  margin-right: 3%;
+  font-size: 15px;
+  color:black;
+  background-color: white;
+  display: none;
+}
+
+.box-1{
+  background-color: ;
+}
+
+.login{
+  text-align: center;
+  margin-top: 8%;
+}
+.login h1{
+  font-family: "Copperplate Gothic";
+  color: black;
+  font-size: 21px;
+  padding: 20px;
+}
+.input-field1{
+  width: 250px;
+  font-size: 16px;
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-bottom: 1.5px solid black; 
+  padding-bottom:  5px;
+  padding-top: 30px;
+}
+.input-field{
+  width: 250px;
+  font-size: 16px;
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-bottom: 1.5px solid black; 
+  padding: 6.8px;
+}
+.login-button{
+  font-size: 16px;
+  padding:10px;
+  border:none;
+  outline: none;
+  width:250px;
+  background-color: #0a047a;
+  color: white;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.box-2{
+  background-color: white;
+  margin: 
+}
+
+.reg h1{
+color: black;
+  font-size: 21px;
+  padding: 20px;
+  font-family: "Copperplate Gothic";
+}
+
+.reg{
+  position: absolute;
+  margin-left:5%;
+  display: none;
+  margin-top: 25px;
+}
+
+/*--------------------------------cus support------------------*/
+.cus{
+  width: 100%;
+  height: 300px;
+  
+}
+.cus img{
+  width: 200px;
+  height: 300px;
+  margin-left: 150px;
+
+}
+.cus1 h4 {
+  text-decoration: underline;
+}
+.cus1 h1{
+  color:#1d5cc2;
+}
+.cus1 {
+  float: right;
+  margin-top: 130px;
+  margin-right: 2.3in;
+}
+.cus1 button{
+  border: none;
+  background:none;
+  width: 1.5in;
+  height: 42px;
+  background-color: grey;
+  border-radius: 5px;
+  color: white;
+}
+.cus1 button:hover{
+ background: -webkit-linear-gradient(left, #81d4eb, #1185a6); 
+}
+
+
+
+
+/*--------------------------------add-------------------------*/
+
+.add {
+  width: 100%;
+  height: 3.5in;
+  
+}
+
+.add h1{
+  color: skyblue;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.add span{
+  margin-bottom:50px;
+  text-align: center;
+  margin-left: 10%;
+  padding-bottom: 0.5in;
+}
+
+.add span img{
+  padding-bottom:1px;
+  padding-right: 5px;
+}
+
+.add .add1 {
+  margin-top: 60px;
+  margin-bottom: 45px;
+}
+
+/*--------------------------JOIN   US----------------*/
+.joinus{
+  width: 100%;
+  height: 17vh;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.joinus img{
+  height: 6vh;
+  width: 6vh; 
+}
+.joinus span{
+  margin-left: 19vh;
+  margin-bottom: 3vh;
+}
+.joinus h2{
+  color: skyblue;
+  margin-left: 14vh; 
+  margin-top: 6vh;
+}
+.subc{
+  float: right;
+  margin-right: 25vh; 
+  margin-top: -20px;
+}
+.subc h3{
+  color: #344142;
+  padding-bottom: 1.6vh;
+}
+.subc input {
+  width: 60vh;
+  height: 5vh;
+}
+.subc button{
+  width: 18vh;
+  height:5vh;
+  border:none;
+  border: 1px solid black;
+  color: white;
+  font-size:2vh;
+  border-radius: 2px;
+  outline: none;
+  background-color: skyblue;
+  font-family: "Arial";
+}
+.subc button:hover{
+  background-color: black;
+}
+
+
+/*--------------------------footer---------------------*/
+.foot {
+  width: 100%;
+  height: 300px;
+  background-color: #262424;
+ }
+ .foot h4{
+ 	color: #e6eded;
+ 	font-family: "Lucida Console";
+ }
+
+.footc ul {
+  width: 190px;
+  text-decoration-line: none;
+  list-style-type: none;
+  text-align: left;
+  padding-left:1vh;
+  padding-top:1.5vh;
+}
+.foot li{
+  padding-bottom: 1.6vh;
+}
+
+.foot a{
+	color: #c4bcbc;
+}
+.foot a:hover{
+	color: #55cee0;
+	text-decoration-line: none;
+}
+
+.footc {
+  width: 190px;
+  float: left;
+  margin-left: 130px;
+  margin-top: 15px;
+}
+.c1{
+  margin-left: 80px;
+}
+
+
+@media only screen and (max-width: 1260px) {
+.foot {
+  width: 100%;
+  height: 300px;
+  background-color: #262424;
+ }
+ .foot h4{
+  color: #e6eded;
+  font-family: "Lucida Console";
+ }
+
+.footc ul {
+  width: 190px;
+  text-decoration-line: none;
+  list-style-type: none;
+  text-align: left;
+  padding-left:1vh;
+  padding-top:1.5vh;
+}
+.foot li{
+  padding-bottom: 1.5vh;
+}
+
+.foot a{
+  color: #c4bcbc;
+}
+.foot a:hover{
+  color: #55cee0;
+  text-decoration-line: none;
+}
+
+.footc {
+  width: 190px;
+  float: left;
+  margin-left: 100px;
+}
+.c1{
+  margin-left: 30px;
+}
+}
+
+
+.bottomfooter{
+	float: bottom;
+	width: 100%;
+	height: 10vh;
+	background-color: #3f4040 ;
+}
+.bottomfooter h2{
+	float:left;
+	font-family: "Lucida Console";
+	color: white;
+	font-size: 3.5vh;
+	padding-left:10px;
+	margin-top:2.8vh;
+}
+.bottomfooter h4{
+	float:right;
+	margin-top:3.6vh;
+	color: red;
+	margin-right: 3vh;
+	color: #e6eded;
+}
+
+
+
+/*--------------------------------PHP STYLE------------------*/
+
+.ss a{
+  color: white;
+}
+.logo {
+  
+  padding-left:0.5in;
+  font-size: 20px;
+  margin-top:-0.1in;
+  color: yellow;
+}
+.w_ss-1 h2{
+  font-size: 25px;
+}
+.w_ss-2 h2{
+  font-size: 25px;
+}
+.w_ss-3 h2{
+  font-size: 25px;
+}
+
+.tabans h4{
+  font-weight: lighter;
+}
+
+.footc a{
+  text-decoration: none;
+}
+
+.subc{
+  float: right;
+  margin-right: 25vh; 
+  margin-top: -25px;
+}

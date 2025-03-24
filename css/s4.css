@@ -1,0 +1,543 @@
+/*-----------------------------------------NAV BOX-------------------------------*/
+@media screen {
+.w_ss-1,.w_ss-2,.w_ss-3 {
+  position: absolute;
+  display: block;
+  top: 11em;
+  left:3em;
+  width: 60%;
+  font-size: 14px;
+  animation-duration: 11s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  color:white;
+}
+.w_ss-1 h2{
+  font-size: 18px;
+}
+.w_ss-2 h2{
+  font-size: 18px;
+}
+.w_ss-3 h2{
+  font-size: 18px;
+}
+.w_ss-1{
+  animation-name: anim-1;
+}
+.w_ss-2{
+  animation-name: anim-2;
+  font-size: 14px;
+}
+.w_ss-3{
+  animation-name: anim-3;
+  font-size: 14px;
+}
+
+@keyframes anim-1 {
+  0%, 8.3% { left: -100%; opacity: 0; }
+  8.3%,25% { left: 25%; opacity: 1; }
+  33.33%, 100% { left: 110%; opacity: 0; }
+}
+
+@keyframes anim-2 {
+  0%, 33.33% { left: -100%; opacity: 0; }
+  41.63%, 58.29% { left: 25%; opacity: 1; }
+  66.66%, 100% { left: 110%; opacity: 0; }
+}
+
+@keyframes anim-3 {
+  0%, 66.66% { left: -100%; opacity: 0; }
+  74.96%, 91.62% { left: 25%; opacity: 1; }
+  100% { left: 110%; opacity: 0; }
+}
+
+.navbox{
+  margin-top: 0.2in; 
+  width: 100%;
+  height: 430px;
+}
+  .tab{
+  width: 150px;
+  height: 3in;
+  margin-left: 0;
+  margin-top: 80px;
+}
+.tab ul{
+  width: 150px;
+  padding-left: 8px;
+}
+.tab ul li {
+  width: 150px;
+  border: 1px solid #d4d2d2;
+  font-size: 17px;
+  padding: 3px;
+  margin-bottom: 30px;
+  border-radius: 3px;
+  background-color:#f5f5f5 ;
+}
+.tab li:hover{
+  width: 150px;
+  background-color: #b1f0eb;
+  text-decoration: none;
+  color: black;  
+}
+.tab i{
+  display: none;
+}
+.tab button {
+  width: 160px;
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 12px;
+}
+
+.tabans{
+  float: left;
+  margin-left: 30px;
+  height: 4.5in;
+  width: 500px;
+  margin-top:5px;
+}
+.tabcontent {
+  display: none;   
+  width: 100%;
+  height: 4.5in;
+  border: 1px solid #e9f5f4;
+  background-color: #f7fcfc;
+  margin-left: 1px;
+}
+
+.tabcontent img{
+  width: 40px;
+  height: 40px;
+}
+#reb1{
+  background-color: #0eddf0;
+}
+.rebtn{
+  border: none;
+  outline: none;
+  background: none;
+  background-color:#dae5e6;
+  width: 5px;
+  height: 20px;
+  margin-top: 0.4in;
+  margin-left: 45px;
+  border-radius: 3px;
+  font-size: 12px;
+}
+/*/*/*/*/*/*/**/
+.tab1{
+  margin-left: 35px;
+}
+/*prepaid*/
+.prepaid{
+  margin-left:35px;
+  margin-top: 20px;
+}
+.postpaid{
+  display: none;
+  margin-left:35px;
+  margin-top: 20px;
+}
+.allt{
+  margin-left:30px;
+  margin-top: 10px; 
+}
+
+.tabansh4{
+  font-size: 14px;
+  color: black;
+}
+.tabansinput{
+  width: 350px;
+  height: 35px;
+  border: none;
+  outline: none;
+  border: 1px solid #ccc;
+  background-color: none;
+  
+}
+.tabansselect{
+  width: 350px;
+  height: 35px;
+  border: none;
+  outline: none;
+  border: 1px solid #ccc;
+  background-color: none;
+  margin-top: 20px;
+  margin-bottom: 8px;
+  font-size: 12px;
+}
+
+.tabansbtn{
+  border: none;
+  color: white;
+  outline: none;
+  background: none;
+  margin-top: 25px;
+  width: 130px;
+  height: 32px;
+  background-color: #07eff7;
+  border-radius: 3px;
+  font-size: 13px;
+}
+.rebtn{
+  border: none;
+  outline: none;
+  background: none;
+  background-color:#dae5e6;
+  width: 85px;
+  height: 30px;
+  margin-top: 0.15in;
+  margin-left: 45px;
+  border-radius: 3px;
+}
+
+
+/*--------------------------------add-------------------------*/
+
+.add {
+  width: 100%;
+  height: 3in;
+}
+
+.add h1{
+  color: skyblue;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.add span{
+  margin-bottom:50px;
+  text-align: center;
+  margin-left: 7%;
+  padding-bottom: 0.5in;
+}
+
+.add span img{
+  padding-bottom:1px;
+  padding-right: 5px;
+}
+
+.add .add1 {
+  margin-top: 60px;
+  margin-bottom: 45px;
+}
+.add img{
+  width: 70px;
+  height: 50px;
+}
+/*-----------------------------------cus-------------------------*/
+.cus{
+  width: 100%;
+  height: 200px;
+}
+.cus img{
+  width: 120px;
+  height: 170px;
+  margin-left: 70px;
+  margin-top: 9px;
+}
+.cus1 h4 {
+  text-decoration: underline;
+}
+.cus1 h1{
+  font-size: 20px;
+  color:#1d5cc2;
+}
+.cus1 {
+  float: right;
+  margin-top: 60px;
+  margin-right: 1in;
+}
+.cus1 button{
+  border: none;
+  background:none;
+  width: 1in;
+  height: 38px;
+  background-color: grey;
+  border-radius: 5px;
+}
+.cus1 button:hover{
+ background: -webkit-linear-gradient(left, #81d4eb, #1185a6); 
+}
+/*--------------------------JOIN   US----------------*/
+.joinus{
+  width: 100%;
+  height: 17vh;
+}
+.joinus img{
+  height: 4vh;
+  width: 4vh; 
+}
+.joinus span{
+  margin-left: 5vh;
+  margin-bottom: 2.5vh;
+}
+.joinus h2{
+  color: skyblue;
+  margin-left: 1vh; 
+  margin-bottom: 2.4vh;
+}
+.subc{
+  float: right;
+  margin-right: 25px; 
+  margin-top: -35px;
+}
+.subc h3{
+  color: #344142;
+  padding-bottom: 1.5vh;
+}
+.subc input {
+  width: 42vh;
+  height: 4vh;
+}
+.subc button{
+  width: 17vh;
+  height:4vh;
+  border:none;
+  border: 1px solid black;
+  color: white;
+  font-size:1.8vh;
+  border-radius: 2px;
+  outline: none;
+  background-color: skyblue;
+  font-family: "Arial";
+}
+.subc button:hover{
+  background-color: black;
+}
+
+
+/*********-----------------foot-------------*/
+.foot {
+  width: 100%;
+  height: 500px;
+  background-color: #262424;
+ }
+ .foot h4{
+  color: #e6eded;
+  font-family: "Lucida Console";
+  font-size: 15px;
+ }
+
+.footc ul {
+  width: 180px;
+  text-decoration-line: none;
+  list-style-type: none;
+  text-align: left;
+  padding-left:1vh;
+  padding-top:1.5vh;
+}
+.foot li{
+  padding-bottom: 1.5vh;
+}
+
+.foot a{
+  color: #c4bcbc;
+}
+.foot a:hover{
+  color: #55cee0;
+  text-decoration-line: none;
+}
+
+
+.c1{
+  width: 130px;
+  float: left;
+  margin-left: 55px;
+  margin-right: 270px;
+}
+
+.c2 {
+  width: 130px;
+  float: left;
+  margin-left: 20px;
+  margin-right: 50px;
+}
+.c3 {
+clear: both;
+  width: 130px;
+  float: left;
+  margin-left: 55px;
+  margin-right: 270px;
+}
+.c4 {
+  width: 150px;
+  float: left;
+  margin-left: 2px;
+  margin-right: 1px;
+}
+
+
+.bottomfooter{
+  float: bottom;
+  width: 100%;
+  height: 10vh;
+  background-color: #3f4040 ;
+}
+.bottomfooter h2{
+  float:left;
+  font-family: "Lucida Console";
+  color: white;
+  font-size: 4vh;
+  padding-left:10px;
+  margin-top:2.8vh;
+  font-size: 20px;
+}
+.bottomfooter h4{
+  float:right;
+  margin-top:3.6vh;
+  color: red;
+  margin-right: 3.9vh;
+  color: #e6eded;
+  font-size: 17px;
+}
+
+
+/*------------------------------------------login register-------------------------*/
+
+#myForm{
+  display: none;
+}
+.log-res{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  width: 70%;
+  height: 5.5in;
+  border: 2px solid blue;
+  margin-top: 7%;
+  margin-left: 10%;
+  background-color: royalblue;
+  background: linear-gradient(to bottom,#5c5cad,#0a047a);
+  box-shadow: 0 21px 42px rgba(0, 0, 0, 0.30), 0 18px 17px rgba(0, 0, 0, 0.22);
+  border-radius: 6px;
+
+}
+.box-2 i{
+  float: right;
+  color:#c2c3c4;
+  padding: 10px;
+  padding-right: 15px;
+  font-size: 20px;
+}
+.box-2 i:hover{
+  color: black;
+}
+.con-hol{
+  text-align: center;
+  margin-top: 10%;
+}
+
+.con-hol img{
+  width: 50%;
+  height: 40%;
+  padding-top: 10%;
+  border-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.con-hol h1{
+  color:white;
+  font-size:90%;
+  font-family: "";
+  font-weight: ;
+  padding-bottom:  20px;
+}
+.btn-1 {
+  border: none;
+  outline: none;
+  width: 80px;
+  height: 30px;
+  border-radius: 2px;
+  margin-right: 3%;
+  font-size: 15px;
+   
+  color:black;
+  background-color: white;
+}
+.btn-2{
+  border: none;
+  outline: none;
+  width: 80px;
+  height: 30px;
+  border-radius: 2px;
+  margin-right: 3%;
+  font-size: 15px;
+  color:black;
+  background-color: white;
+  display: none;
+}
+
+.box-1{
+  background-color: ;
+}
+
+.login{
+  text-align: left;
+  margin-left: 35px;
+  margin-top: 8%;
+}
+.login h1{
+  font-family: "Copperplate Gothic";
+  color: black;
+  font-size: 21px;
+  padding: 20px;
+}
+.input-field1{
+  width: 220px;
+  height: 50px;
+  font-size: 16px;
+  padding-bottom: 10px ;
+  border: none;
+  outline: none;
+  border-bottom: 1.5px solid black; 
+  padding-bottom:  5px;
+  padding-top: 30px;
+  background: none;
+}
+.input-field{
+  width: 220px;
+  font-size: 16px;
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-bottom: 1.5px solid black; 
+  padding: 6.8px;
+}
+.login-button{
+  font-size: 13px;
+  padding:10px;
+  border:none;
+  outline: none;
+  width:150px;
+  background-color: #0a047a;
+  color: white;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.box-2{
+  background-color: white;
+  margin: 
+}
+
+.reg h1{
+color: black;
+  font-size: 21px;
+  padding: 20px;
+  font-family: "Copperplate Gothic";
+}
+
+.reg{
+  position: absolute;
+  margin-left:2%;
+  display: none;
+  margin-top: 25px;
+}
+
+}
+

@@ -1,0 +1,359 @@
+/*-----------------------------------------NAV BOX-------------------------------*/
+@media screen {
+.w_ss-1,.w_ss-2,.w_ss-3 {
+  position: absolute;
+  display: block;
+  top: 9em;
+  left:5em;
+  width: 60%;
+  font-size: 1.5em;
+  animation-duration: 11s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  color:white;
+}
+
+.w_ss-1{
+  animation-name: anim-1;
+}
+.w_ss-2{
+  animation-name: anim-2;
+}
+.w_ss-3{
+  animation-name: anim-3;
+}
+
+@keyframes anim-1 {
+  0%, 8.3% { left: -100%; opacity: 0; }
+  8.3%,25% { left: 25%; opacity: 1; }
+  33.33%, 100% { left: 110%; opacity: 0; }
+}
+
+@keyframes anim-2 {
+  0%, 33.33% { left: -100%; opacity: 0; }
+  41.63%, 58.29% { left: 25%; opacity: 1; }
+  66.66%, 100% { left: 110%; opacity: 0; }
+}
+
+@keyframes anim-3 {
+  0%, 66.66% { left: -100%; opacity: 0; }
+  74.96%, 91.62% { left: 25%; opacity: 1; }
+  100% { left: 110%; opacity: 0; }
+}
+
+.navbox{
+  margin-top: 0.4in; 
+  width: 100%;
+  height: 450px;
+}
+  .tab{
+  width: 200px;
+  height: 3in;
+  margin-left: 16px;
+  margin-top: 90px;
+}
+
+.tab ul li {
+  width: 265px;
+  border: 1px solid #d4d2d2;
+  font-size: 15px;
+  padding: 3px;
+  margin-bottom: 20px;
+  border-radius: 3px;
+  background-color:#f5f5f5 ;
+}
+.tab li:hover{
+  background-color: #b1f0eb;
+  text-decoration: none;
+  color: black;  
+}
+.tab i{
+  font-size: 15px;
+}
+.tab button {
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 14px;
+}
+
+.tabans{
+  float: left;
+  margin-left: 1.5in;
+  height: 4.5in;
+  width: 485px;
+  margin-top:5px;
+}
+.tabcontent {
+  display: none;   
+  width: 100%;
+  height: 4.95in;
+  border: 1px solid #e9f5f4;
+  background-color: #f7fcfc;
+}
+.tabcontent img{
+  width: 60px;
+  height: 60px;
+}
+#reb1{
+  background-color: #0eddf0;
+}
+.rebtn{
+  border: none;
+  outline: none;
+  background: none;
+  background-color:#dae5e6;
+  width: 85px;
+  height: 30px;
+  margin-top: 0.4in;
+  margin-left: 45px;
+  border-radius: 3px;
+}
+/*/*/*/*/*/*/**/
+.tab1{
+  margin-left: 35px;
+}
+/*prepaid*/
+.prepaid{
+  margin-left:35px;
+  margin-top: 20px;
+}
+.postpaid{
+  display: none;
+  margin-left:35px;
+  margin-top: 20px;
+}
+.allt{
+  margin-left:30px;
+  margin-top: 10px; 
+}
+
+.tabansh4{
+  font-size: 16px;
+  color: black;
+}
+.tabansinput{
+  width: 400px;
+  height: 35px;
+  border: none;
+  outline: none;
+  border: 1px solid #ccc;
+  background-color: none;
+  
+}
+.tabansselect{
+  width: 400px;
+  height: 35px;
+  border: none;
+  outline: none;
+  border: 1px solid #ccc;
+  background-color: none;
+  margin-top: 20px;
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+.tabansbtn{
+  border: none;
+  color: white;
+  outline: none;
+  background: none;
+  margin-top: 25px;
+  width: 130px;
+  height: 32px;
+  background-color: #07eff7;
+  border-radius: 3px;
+}
+.rebtn{
+  border: none;
+  outline: none;
+  background: none;
+  background-color:#dae5e6;
+  width: 85px;
+  height: 30px;
+  margin-top: 0.15in;
+  margin-left: 45px;
+  border-radius: 3px;
+}
+
+/*********-----------------foot-------------*/
+.foot {
+  width: 100%;
+  height: 300px;
+  background-color: #262424;
+ }
+ .foot h4{
+  color: #e6eded;
+  font-family: "Lucida Console";
+  font-size: 15px;
+ }
+
+.footc ul {
+  width: 180px;
+  text-decoration-line: none;
+  list-style-type: none;
+  text-align: left;
+  padding-left:1vh;
+  padding-top:1.5vh;
+}
+.foot li{
+  padding-bottom: 1.5vh;
+}
+
+.foot a{
+  color: #c4bcbc;
+}
+.foot a:hover{
+  color: #55cee0;
+  text-decoration-line: none;
+}
+
+.footc {
+  width: 130px;
+  float: left;
+  margin-left: 80px;
+}
+.c1{
+  margin-left: 10px;
+}
+/*------------------------------------------login register-------------------------*/
+
+#myForm{
+  display: none;
+}
+.log-res{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  width: 60%;
+  height: 5.5in;
+  border: 2px solid blue;
+  margin-top: 7%;
+  margin-left: 10%;
+  background-color: royalblue;
+  background: linear-gradient(to bottom,#5c5cad,#0a047a);
+  box-shadow: 0 21px 42px rgba(0, 0, 0, 0.30), 0 18px 17px rgba(0, 0, 0, 0.22);
+  border-radius: 6px;
+
+}
+.box-2 i{
+  float: right;
+  color:#c2c3c4;
+  padding: 10px;
+  padding-right: 15px;
+  font-size: 20px;
+}
+.box-2 i:hover{
+  color: black;
+}
+.con-hol{
+  text-align: center;
+  margin-top: 10%;
+}
+
+.con-hol img{
+  width: 50%;
+  height: 40%;
+  padding-top: 10%;
+  border-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.con-hol h1{
+  color:white;
+  font-size:90%;
+  font-family: "";
+  font-weight: ;
+  padding-bottom:  20px;
+}
+.btn-1 {
+  border: none;
+  outline: none;
+  width: 80px;
+  height: 30px;
+  border-radius: 2px;
+  margin-right: 3%;
+  font-size: 15px;
+   
+  color:black;
+  background-color: white;
+}
+.btn-2{
+  border: none;
+  outline: none;
+  width: 80px;
+  height: 30px;
+  border-radius: 2px;
+  margin-right: 3%;
+  font-size: 15px;
+  color:black;
+  background-color: white;
+  display: none;
+}
+
+.box-1{
+  background-color: ;
+}
+
+.login{
+  text-align: center;
+  margin-top: 8%;
+}
+.login h1{
+  font-family: "Copperplate Gothic";
+  color: black;
+  font-size: 21px;
+  padding: 20px;
+}
+.input-field1{
+  width: 200px;
+  font-size: 16px;
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-bottom: 1.5px solid black; 
+  padding-bottom:  5px;
+  padding-top: 30px;
+}
+.input-field{
+  width: 250px;
+  font-size: 16px;
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-bottom: 1.5px solid black; 
+  padding: 6.8px;
+}
+.login-button{
+  font-size: 15px;
+  padding:10px;
+  border:none;
+  outline: none;
+  width:200px;
+  background-color: #0a047a;
+  color: white;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.box-2{
+  background-color: white;
+  margin: 
+}
+
+.reg h1{
+color: black;
+  font-size: 21px;
+  padding: 20px;
+  font-family: "Copperplate Gothic";
+}
+
+.reg{
+  position: absolute;
+  margin-left:2%;
+  display: none;
+  margin-top: 25px;
+}
+
+}
+
